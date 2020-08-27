@@ -1,0 +1,13 @@
+.calc__form {
+    display: flex;
+    gap: 20px;
+}
+
+.calc__number {
+    padding: 10px;
+}
+
+.calc__result {
+    font-size: 1.3rem;
+    text-decoration: underline;
+}

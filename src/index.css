@@ -1,6 +1,7 @@
 :root {
     --black: #201e20;
     --gold: #e8bb8a;
+    --gray: #e1e1e1;
 }
 
 html {
@@ -12,8 +13,7 @@ html {
 }
 
 body,
-input,
-select {
+input {
     font-family: 'Alata', sans-serif;
     font-size: 18px;
     outline: none;
@@ -29,7 +29,19 @@ p {
     margin: 10px 0;
 }
 
-select,
+input {
+    max-height: 43px;
+}
+
 input[type="submit"] {
+    padding: 7px 20px;
+    background-color: var(--gray);
+    color: var(--black);
+    border: 2px solid var(--gold);
+    border-radius: 6px;
     cursor: pointer;
+}
+
+input[type="submit"]:active {
+    transform: scale(0.97);
 }

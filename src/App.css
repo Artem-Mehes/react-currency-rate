@@ -6,3 +6,10 @@
 .header__heading {
     font-size: 3rem;
 }
+
+.css-yk16xz-control,
+.css-1pahdxg-control {
+    min-height: 43px !important;
+    min-width: 100px;
+    cursor: pointer !important;
+}
