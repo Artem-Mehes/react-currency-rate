@@ -1,6 +1,10 @@
 .rate__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 20px;
 }
 
@@ -14,9 +18,13 @@
 }
 
 .rate__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    gap: 40px;
-    align-items: center;
+    gap: 20px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .slick-slider {
@@ -25,6 +33,8 @@
 }
 
 .slick-track {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 30px;
 }
@@ -38,7 +48,9 @@
     position: absolute;
     cursor: pointer;
     top: 50%;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
     font-size: 0;
     width: 22px;
     height: 26px;
@@ -59,11 +71,17 @@
 }
 
 .slick-dots {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
     display: flex !important;
     position: absolute;
     left: 50%;
-    transform: translateX(-55%);
-    justify-content: space-between;
+    -webkit-transform: translateX(-55%);
+        -ms-transform: translateX(-55%);
+            transform: translateX(-55%);
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     min-width: 150px;
 }
 
@@ -82,8 +100,13 @@
 }
 
 .rate__slider-item {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
     display: flex !important;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     background-color: var(--gold);
     padding: 10px 20px;
     border-radius: 14px;
@@ -92,5 +115,6 @@
 }
 
 .rate__cost {
-    align-self: flex-end;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
 }

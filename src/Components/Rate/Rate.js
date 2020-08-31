@@ -41,14 +41,15 @@ class Rate extends React.Component {
                 <div className="rate__inner">
                     <h2 className="rate__heading">Exchange Rate on {this.props.date}</h2>
                     <p>Current Base Currency: <span>{this.props.base}</span></p>
-                    <p>Change Base Currency:</p>
                     <form className="rate__form" onSubmit={this.handleSubmit}>
+                        <label htmlFor="type">Change Base Currency:</label>
                         <Select 
                             options={this.props.selectOptions}
                             defaultValue={{ label: 'EUR', value: 'EUR' }}
                             value={this.props.selectValue}
                             onChange={ selectValue => this.handleChange(selectValue) }
                             name='type'
+                            id="type"
                             maxMenuHeight={250}
                         />
 
