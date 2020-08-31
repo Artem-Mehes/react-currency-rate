@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-currency-rate/static/css/main.72898a8a.chunk.css",
-    "main.js": "/react-currency-rate/static/js/main.4aee0c99.chunk.js",
-    "main.js.map": "/react-currency-rate/static/js/main.4aee0c99.chunk.js.map",
+    "main.css": "/react-currency-rate/static/css/main.3bbcdfe0.chunk.css",
+    "main.js": "/react-currency-rate/static/js/main.40218cfd.chunk.js",
+    "main.js.map": "/react-currency-rate/static/js/main.40218cfd.chunk.js.map",
     "runtime-main.js": "/react-currency-rate/static/js/runtime-main.8c4e8ed5.js",
     "runtime-main.js.map": "/react-currency-rate/static/js/runtime-main.8c4e8ed5.js.map",
     "static/js/2.e5412a11.chunk.js": "/react-currency-rate/static/js/2.e5412a11.chunk.js",
     "static/js/2.e5412a11.chunk.js.map": "/react-currency-rate/static/js/2.e5412a11.chunk.js.map",
     "index.html": "/react-currency-rate/index.html",
-    "precache-manifest.aeeffad43782c86dc3746580e82859a2.js": "/react-currency-rate/precache-manifest.aeeffad43782c86dc3746580e82859a2.js",
+    "precache-manifest.4cc5b718df3a30f9174aa4b8f9d3c807.js": "/react-currency-rate/precache-manifest.4cc5b718df3a30f9174aa4b8f9d3c807.js",
     "service-worker.js": "/react-currency-rate/service-worker.js",
-    "static/css/main.72898a8a.chunk.css.map": "/react-currency-rate/static/css/main.72898a8a.chunk.css.map",
+    "static/css/main.3bbcdfe0.chunk.css.map": "/react-currency-rate/static/css/main.3bbcdfe0.chunk.css.map",
     "static/js/2.e5412a11.chunk.js.LICENSE.txt": "/react-currency-rate/static/js/2.e5412a11.chunk.js.LICENSE.txt",
     "static/media/Rate.css": "/react-currency-rate/static/media/arrow-right-s-line.ba463ccb.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.8c4e8ed5.js",
     "static/js/2.e5412a11.chunk.js",
-    "static/css/main.72898a8a.chunk.css",
-    "static/js/main.4aee0c99.chunk.js"
+    "static/css/main.3bbcdfe0.chunk.css",
+    "static/js/main.40218cfd.chunk.js"
   ]
 }
